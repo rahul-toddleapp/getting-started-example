@@ -20,7 +20,7 @@
 11 silly isBehindUpstream release-v1.0.0 is behind origin/release-v1.0.0 by 0 commit(s) and ahead by 0
 12 silly hasTags
 13 verbose hasTags true
-14 silly git-describe.sync "v0.0.6-3-g109814d" => {"lastTagName":"v0.0.6","lastVersion":"v0.0.6","refCount":"3","sha":"109814d","isDirty":false}
+14 silly git-describe.sync "v0.0.6-4-gea94e80" => {"lastTagName":"v0.0.6","lastVersion":"v0.0.6","refCount":"4","sha":"ea94e80","isDirty":false}
 15 info Looking for changed packages since v0.0.6
 16 silly checking diff packages/footer
 17 silly no diff found in footer-versioned
@@ -36,12 +36,18 @@
 20 verbose filtered diff   'packages/header/src/Header.tsx'
 20 verbose filtered diff ]
 21 silly checking diff packages/remixapp
+22 silly found diff in packages/remixapp/CHANGELOG.md
+22 silly found diff in packages/remixapp/package-lock.json
 22 silly found diff in packages/remixapp/package.json
-23 verbose filtered diff [ 'packages/remixapp/package.json' ]
+23 verbose filtered diff [
+23 verbose filtered diff   'packages/remixapp/CHANGELOG.md',
+23 verbose filtered diff   'packages/remixapp/package-lock.json',
+23 verbose filtered diff   'packages/remixapp/package.json'
+23 verbose filtered diff ]
 24 verbose updated header-versioned
 25 verbose updated remixapp-versioned
-26 verbose git-describe undefined => "v0.0.6-3-g109814d"
-27 silly git-describe parsed => {"lastTagName":"v0.0.6","lastVersion":"v0.0.6","refCount":"3","sha":"109814d","isDirty":false}
+26 verbose git-describe undefined => "v0.0.6-4-gea94e80"
+27 silly git-describe parsed => {"lastTagName":"v0.0.6","lastVersion":"v0.0.6","refCount":"4","sha":"ea94e80","isDirty":false}
 28 silly independent for header-versioned at /Users/apple/Desktop/getting-started-example/packages/header
 29 verbose getChangelogConfig using preset "conventional-changelog-angular"
 30 silly npa Result {
@@ -61,9 +67,9 @@
 30 silly npa }
 31 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 32 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-33 verbose independent increment 0.0.7 by patch
+33 verbose independent increment 0.0.8 by patch
 34 silly independent for remixapp-versioned at /Users/apple/Desktop/getting-started-example/packages/remixapp
-35 verbose independent increment 0.0.6 by patch
+35 verbose independent increment 0.0.7 by patch
 36 info auto-confirmed
 37 info execute Skipping releases
 38 silly lifecycle No script for "preversion" in "root", continuing
@@ -73,18 +79,18 @@
 42 silly independent for remixapp-versioned at /Users/apple/Desktop/getting-started-example/packages/remixapp
 43 silly lifecycle No script for "version" in "header-versioned", continuing
 44 silly independent for header-versioned at /Users/apple/Desktop/getting-started-example/packages/header
-45 silly independent writing new entry: "## 0.0.8 (2024-08-24)\n\n\n\n## 0.0.6 (2024-08-24)\n\n\n\n## 0.0.4 (2024-08-24)\n\n\n\n## 0.0.3 (2024-08-24)\n\n\n\n## 0.0.2 (2024-08-24)\n\n\n\n## 0.0.1 (2024-08-24)\n\n\n### Bug Fixes\n\n* emit types from react component packages ([124611e](https://github.com/rahul-toddleapp/getting-started-example/commit/124611e46cf4d07f337d3e9e522378a7f50116c9))\n\n\n\n"
-46 silly independent writing new entry: "## 0.0.7 (2024-08-24)\n\n\n\n## 0.0.6 (2024-08-24)\n\n\n\n## 0.0.4 (2024-08-24)\n\n\n\n## 0.0.3 (2024-08-24)\n\n\n\n## 0.0.2 (2024-08-24)\n\n\n\n## 0.0.1 (2024-08-24)\n\n\n### Bug Fixes\n\n* add version to remixapp packagejson to satisfy yarn workspaces ([daf785f](https://github.com/rahul-toddleapp/getting-started-example/commit/daf785ff39c01da41f636987814d066f3b6b1234))\n\n\n\n"
-47 verbose independent wrote /Users/apple/Desktop/getting-started-example/packages/header/CHANGELOG.md
-48 verbose independent wrote /Users/apple/Desktop/getting-started-example/packages/remixapp/CHANGELOG.md
+45 silly independent writing new entry: "## 0.0.8 (2024-08-24)\n\n\n\n## 0.0.6 (2024-08-24)\n\n\n\n## 0.0.4 (2024-08-24)\n\n\n\n## 0.0.3 (2024-08-24)\n\n\n\n## 0.0.2 (2024-08-24)\n\n\n\n## 0.0.1 (2024-08-24)\n\n\n### Bug Fixes\n\n* add version to remixapp packagejson to satisfy yarn workspaces ([daf785f](https://github.com/rahul-toddleapp/getting-started-example/commit/daf785ff39c01da41f636987814d066f3b6b1234))\n\n\n\n"
+46 verbose independent wrote /Users/apple/Desktop/getting-started-example/packages/remixapp/CHANGELOG.md
+47 silly independent writing new entry: "## 0.0.9 (2024-08-24)\n\n\n\n## 0.0.6 (2024-08-24)\n\n\n\n## 0.0.4 (2024-08-24)\n\n\n\n## 0.0.3 (2024-08-24)\n\n\n\n## 0.0.2 (2024-08-24)\n\n\n\n## 0.0.1 (2024-08-24)\n\n\n### Bug Fixes\n\n* emit types from react component packages ([124611e](https://github.com/rahul-toddleapp/getting-started-example/commit/124611e46cf4d07f337d3e9e522378a7f50116c9))\n\n\n\n"
+48 verbose independent wrote /Users/apple/Desktop/getting-started-example/packages/header/CHANGELOG.md
 49 verbose version Updating root package-lock.json
 50 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
 50 error npm error code ETARGET
-50 error npm error notarget No matching version found for header@^0.0.6.
+50 error npm error notarget No matching version found for header-versioned@^0.0.6.
 50 error npm error notarget In most cases you or one of your dependencies are requesting
 50 error npm error notarget a package version that doesn't exist.
 50 error
-50 error npm error A complete log of this run can be found in: /Users/apple/.npm/_logs/2024-08-24T11_49_00_985Z-debug-0.log
+50 error npm error A complete log of this run can be found in: /Users/apple/.npm/_logs/2024-08-24T11_49_57_588Z-debug-0.log
 50 error     at makeError (/Users/apple/Desktop/getting-started-example/node_modules/execa/lib/error.js:59:11)
 50 error     at handlePromise (/Users/apple/Desktop/getting-started-example/node_modules/execa/index.js:114:26)
 50 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
