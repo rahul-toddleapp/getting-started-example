@@ -1,7 +1,8 @@
 {
   "name": "remixapp",
   "version": "0.0.1",
-  "private": true,
+  "license": "MIT",
+
   "sideEffects": false,
   "scripts": {
     "build": "remix build",
