@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.9](https://github.com/rahul-toddleapp/getting-started-example/compare/footer-versioned@0.0.8...footer-versioned@0.0.9) (2024-08-24)
+
+**Note:** Version bump only for package footer-versioned
+
+
+
+
+
 ## [0.0.8](https://github.com/rahul-toddleapp/getting-started-example/compare/footer-versioned@0.0.7...footer-versioned@0.0.8) (2024-08-24)
 
 **Note:** Version bump only for package footer-versioned
