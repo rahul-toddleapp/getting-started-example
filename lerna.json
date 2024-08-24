@@ -1,4 +1,12 @@
 {
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
-  "version": "0.0.6"
+  "packages": ["packages/*"],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish",
+      "allowBranch": ["lerna-publish", "release-v*"]
+    },
+    "ignoreChanges": ["*.md"]
+  }
 }
