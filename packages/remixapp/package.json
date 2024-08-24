@@ -1,5 +1,5 @@
 {
-  "name": "remixapp",
+  "name": "remixapp-versioned",
   "version": "0.0.2",
   "license": "MIT",
   "sideEffects": false,
@@ -41,5 +41,6 @@
         ]
       }
     }
-  }
+  },
+  "gitHead": "34c55b8cabac63d737e4e2caaa1c5f23755f473a"
 }
