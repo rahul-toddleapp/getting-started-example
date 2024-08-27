@@ -9,6 +9,18 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "package.json",
+        "hash": "6257239510909074928"
+      },
+      {
+        "file": ".nx/workspace-data/d/server-process.json",
+        "hash": "12808986100301198685"
+      },
+      {
+        "file": "README.md",
+        "hash": "6777609937844183308"
+      },
+      {
         "file": "lerna.json",
         "hash": "5474005139294075794"
       },
@@ -21,28 +33,16 @@
         "hash": "696142436754191486"
       },
       {
-        "file": "README.md",
-        "hash": "6777609937844183308"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1506074105630320832"
+        "file": "package-lock.json",
+        "hash": "10369350288938880097"
       },
       {
         "file": "CHANGELOG.md",
         "hash": "13723921086070836246"
       },
       {
-        "file": "package-lock.json",
-        "hash": "10369350288938880097"
-      },
-      {
-        "file": "package.json",
-        "hash": "6257239510909074928"
-      },
-      {
-        "file": ".nx/workspace-data/d/server-process.json",
-        "hash": "12808986100301198685"
+        "file": ".gitignore",
+        "hash": "1506074105630320832"
       }
     ],
     "projectFileMap": {
