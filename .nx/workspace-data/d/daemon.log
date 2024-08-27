@@ -1,0 +1,11 @@
+[NX Daemon Server] - 2024-08-27T05:30:17.060Z - Started listening on: /var/folders/s_/57djqm0j015d5mxqm2spxy2m0000gn/T/f4bcf4b4c60519bdb925/d.sock
+[NX Daemon Server] - 2024-08-27T05:30:17.062Z - [WATCHER]: Subscribed to changes within: /Users/apple/Desktop/getting-started-example (native)
+[NX Daemon Server] - 2024-08-27T05:30:17.070Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-08-27T05:30:17.070Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-08-27T05:30:17.070Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-08-27T05:30:17.071Z - [REQUEST]: Responding to the client. Shutdown initiated
+[NX Daemon Server] - 2024-08-27T05:30:17.071Z - Done responding to the client Shutdown initiated
+[NX Daemon Server] - 2024-08-27T05:30:17.071Z - Handled FORCE_SHUTDOWN. Handling time: 0. Response time: 0.
+[NX Daemon Server] - 2024-08-27T05:30:17.072Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-08-27T05:30:17.072Z - [WATCHER]: Stopping the watcher for /Users/apple/Desktop/getting-started-example (sources)
+[NX Daemon Server] - 2024-08-27T05:30:17.072Z - [WATCHER]: Stopping the watcher for /Users/apple/Desktop/getting-started-example (outputs)

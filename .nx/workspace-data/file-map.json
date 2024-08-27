@@ -1,0 +1,243 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.6.3",
+  "deps": {
+    "lerna": "^8.1.8"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "footer-versioned": [
+        {
+          "file": "packages/footer/CHANGELOG.md",
+          "hash": "17332587880370580876"
+        },
+        {
+          "file": "packages/footer/jest.config.js",
+          "hash": "9105608488111214761"
+        },
+        {
+          "file": "packages/footer/package-lock.json",
+          "hash": "11247719848369777022"
+        },
+        {
+          "file": "packages/footer/package.json",
+          "hash": "2872329846630544941",
+          "deps": [
+            "npm:rimraf",
+            "npm:@testing-library/react",
+            "npm:@types/jest",
+            "npm:@types/react",
+            "npm:jest",
+            "npm:react",
+            "npm:react-dom",
+            "npm:rollup",
+            "npm:rollup-plugin-typescript2",
+            "npm:ts-jest",
+            "npm:tslib",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/footer/rollup.config.js",
+          "hash": "6912526672139817175"
+        },
+        {
+          "file": "packages/footer/src/Footer.spec.tsx",
+          "hash": "12732654578629420117"
+        },
+        {
+          "file": "packages/footer/src/Footer.tsx",
+          "hash": "10866670871190569539"
+        },
+        {
+          "file": "packages/footer/src/index.tsx",
+          "hash": "17291243671097352049"
+        },
+        {
+          "file": "packages/footer/tsconfig.json",
+          "hash": "16510780263080192750"
+        },
+        {
+          "file": "packages/footer/tsconfig.lib.json",
+          "hash": "12065603132550339980"
+        },
+        {
+          "file": "packages/footer/tsconfig.spec.json",
+          "hash": "6512608057909581835"
+        }
+      ],
+      "header-versioned": [
+        {
+          "file": "packages/header/CHANGELOG.md",
+          "hash": "14854212935339563973"
+        },
+        {
+          "file": "packages/header/jest.config.js",
+          "hash": "9105608488111214761"
+        },
+        {
+          "file": "packages/header/package-lock.json",
+          "hash": "17433154142049634849"
+        },
+        {
+          "file": "packages/header/package.json",
+          "hash": "8675066027788145403",
+          "deps": [
+            "npm:rimraf",
+            "npm:@testing-library/react",
+            "npm:@types/jest",
+            "npm:@types/react",
+            "npm:jest",
+            "npm:react",
+            "npm:react-dom",
+            "npm:rollup",
+            "npm:rollup-plugin-typescript2",
+            "npm:ts-jest",
+            "npm:tslib",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/header/rollup.config.js",
+          "hash": "6912526672139817175"
+        },
+        {
+          "file": "packages/header/src/Header.spec.tsx",
+          "hash": "9207668947890705564"
+        },
+        {
+          "file": "packages/header/src/Header.tsx",
+          "hash": "7080035875957178744"
+        },
+        {
+          "file": "packages/header/src/index.tsx",
+          "hash": "3971734459873567751"
+        },
+        {
+          "file": "packages/header/tsconfig.json",
+          "hash": "16510780263080192750"
+        },
+        {
+          "file": "packages/header/tsconfig.lib.json",
+          "hash": "12065603132550339980"
+        },
+        {
+          "file": "packages/header/tsconfig.spec.json",
+          "hash": "6512608057909581835"
+        }
+      ],
+      "remixapp-versioned": [
+        {
+          "file": "packages/remixapp/.eslintrc",
+          "hash": "16988127387794714891"
+        },
+        {
+          "file": "packages/remixapp/CHANGELOG.md",
+          "hash": "17965706186874078232"
+        },
+        {
+          "file": "packages/remixapp/app/entry.client.tsx",
+          "hash": "12611342329477535116"
+        },
+        {
+          "file": "packages/remixapp/app/entry.server.tsx",
+          "hash": "1190730790936313240"
+        },
+        {
+          "file": "packages/remixapp/app/root.tsx",
+          "hash": "3865960150028357246"
+        },
+        {
+          "file": "packages/remixapp/app/routes/index.tsx",
+          "hash": "5903411017809591938"
+        },
+        {
+          "file": "packages/remixapp/jest.config.js",
+          "hash": "9105608488111214761"
+        },
+        {
+          "file": "packages/remixapp/package-lock.json",
+          "hash": "12905816158070084219"
+        },
+        {
+          "file": "packages/remixapp/package.json",
+          "hash": "4120810441643525375",
+          "deps": [
+            "npm:@remix-run/dev",
+            "npm:@remix-run/eslint-config",
+            "npm:@types/jest",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:jest",
+            "npm:ts-jest",
+            "npm:typescript",
+            "npm:@remix-run/node",
+            "npm:@remix-run/react",
+            "npm:@remix-run/serve",
+            "footer-versioned",
+            "header-versioned",
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "packages/remixapp/public/favicon.ico",
+          "hash": "3730367829618743876"
+        },
+        {
+          "file": "packages/remixapp/remix.config.js",
+          "hash": "15955396084552921172"
+        },
+        {
+          "file": "packages/remixapp/remix.env.d.ts",
+          "hash": "13547913023474350511"
+        },
+        {
+          "file": "packages/remixapp/tests/example.spec.tsx",
+          "hash": "3975184989323073644"
+        },
+        {
+          "file": "packages/remixapp/tsconfig.json",
+          "hash": "14902678922836432892"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "1506074105630320832"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "13723921086070836246"
+      },
+      {
+        "file": "README.md",
+        "hash": "6777609937844183308"
+      },
+      {
+        "file": "lerna-debug.log",
+        "hash": "5493471728711053705"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "15101609960936766526"
+      },
+      {
+        "file": "nx.json",
+        "hash": "696142436754191486"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "19667996504193577"
+      },
+      {
+        "file": "package.json",
+        "hash": "6257239510909074928"
+      }
+    ]
+  }
+}
