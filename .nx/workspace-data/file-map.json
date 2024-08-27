@@ -9,12 +9,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "package.json",
-        "hash": "6257239510909074928"
+        "file": "nx.json",
+        "hash": "696142436754191486"
       },
       {
         "file": ".nx/workspace-data/d/server-process.json",
         "hash": "12808986100301198685"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "10369350288938880097"
+      },
+      {
+        "file": "package.json",
+        "hash": "6257239510909074928"
+      },
+      {
+        "file": "CHANGELOG.md",
+        "hash": "13723921086070836246"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "1506074105630320832"
       },
       {
         "file": "README.md",
@@ -27,22 +43,6 @@
       {
         "file": "lerna-debug.log",
         "hash": "5493471728711053705"
-      },
-      {
-        "file": "nx.json",
-        "hash": "696142436754191486"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "10369350288938880097"
-      },
-      {
-        "file": "CHANGELOG.md",
-        "hash": "13723921086070836246"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "1506074105630320832"
       }
     ],
     "projectFileMap": {
@@ -137,7 +137,7 @@
         },
         {
           "file": "packages/header/package.json",
-          "hash": "17660043941981770536",
+          "hash": "12946798296002241116",
           "deps": [
             "npm:rimraf",
             "npm:@testing-library/react",
