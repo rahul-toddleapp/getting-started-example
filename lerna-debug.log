@@ -2,12 +2,10 @@
 0 silly argv   _: [ 'version' ],
 0 silly argv   'conventional-commits': true,
 0 silly argv   conventionalCommits: true,
-0 silly argv   yes: true,
-0 silly argv   y: true,
-0 silly argv   lernaVersion: '7.1.5',
-0 silly argv   '$0': '/Users/apple/Desktop/getting-started-example/node_modules/.bin/lerna'
+0 silly argv   lernaVersion: '8.1.8',
+0 silly argv   '$0': 'lerna'
 0 silly argv }
-1 notice cli v7.1.5
+1 notice cli v8.1.8
 2 verbose packageConfigs Explicit "packages" configuration found in lerna.json. Resolving packages using the configured glob(s): ["packages/*"]
 3 verbose rootPath /Users/apple/Desktop/getting-started-example
 4 info versioning independent
@@ -20,79 +18,101 @@
 11 silly isBehindUpstream release-v1.0.0 is behind origin/release-v1.0.0 by 0 commit(s) and ahead by 0
 12 silly hasTags
 13 verbose hasTags true
-14 silly git-describe.sync "v0.0.6-4-gea94e80" => {"lastTagName":"v0.0.6","lastVersion":"v0.0.6","refCount":"4","sha":"ea94e80","isDirty":false}
-15 info Looking for changed packages since v0.0.6
+14 silly git-describe.sync "footer-versioned@0.0.7-3-g69de638" => {"lastTagName":"footer-versioned@0.0.7","lastVersion":"0.0.7","refCount":"3","sha":"69de638","isDirty":false}
+15 info Looking for changed packages since footer-versioned@0.0.7
 16 silly checking diff packages/footer
-17 silly no diff found in footer-versioned
-18 silly checking diff packages/header
-19 silly found diff in packages/header/CHANGELOG.md
-19 silly found diff in packages/header/package-lock.json
-19 silly found diff in packages/header/package.json
-19 silly found diff in packages/header/src/Header.tsx
-20 verbose filtered diff [
-20 verbose filtered diff   'packages/header/CHANGELOG.md',
-20 verbose filtered diff   'packages/header/package-lock.json',
-20 verbose filtered diff   'packages/header/package.json',
-20 verbose filtered diff   'packages/header/src/Header.tsx'
-20 verbose filtered diff ]
-21 silly checking diff packages/remixapp
-22 silly found diff in packages/remixapp/CHANGELOG.md
-22 silly found diff in packages/remixapp/package-lock.json
-22 silly found diff in packages/remixapp/package.json
-23 verbose filtered diff [
-23 verbose filtered diff   'packages/remixapp/CHANGELOG.md',
-23 verbose filtered diff   'packages/remixapp/package-lock.json',
-23 verbose filtered diff   'packages/remixapp/package.json'
-23 verbose filtered diff ]
-24 verbose updated header-versioned
-25 verbose updated remixapp-versioned
-26 verbose git-describe undefined => "v0.0.6-4-gea94e80"
-27 silly git-describe parsed => {"lastTagName":"v0.0.6","lastVersion":"v0.0.6","refCount":"4","sha":"ea94e80","isDirty":false}
-28 silly independent for header-versioned at /Users/apple/Desktop/getting-started-example/packages/header
+17 silly found diff in packages/footer/CHANGELOG.md
+17 silly found diff in packages/footer/package-lock.json
+17 silly found diff in packages/footer/package.json
+17 silly found diff in packages/footer/src/Footer.tsx
+18 verbose filtered diff [
+18 verbose filtered diff   'packages/footer/CHANGELOG.md',
+18 verbose filtered diff   'packages/footer/package-lock.json',
+18 verbose filtered diff   'packages/footer/package.json',
+18 verbose filtered diff   'packages/footer/src/Footer.tsx'
+18 verbose filtered diff ]
+19 silly checking diff packages/header
+20 silly found diff in packages/header/CHANGELOG.md
+20 silly found diff in packages/header/package-lock.json
+20 silly found diff in packages/header/package.json
+20 silly found diff in packages/header/src/Header.tsx
+21 verbose filtered diff [
+21 verbose filtered diff   'packages/header/CHANGELOG.md',
+21 verbose filtered diff   'packages/header/package-lock.json',
+21 verbose filtered diff   'packages/header/package.json',
+21 verbose filtered diff   'packages/header/src/Header.tsx'
+21 verbose filtered diff ]
+22 silly checking diff packages/remixapp
+23 silly no diff found in remixapp-versioned
+24 verbose updated footer-versioned
+25 verbose updated header-versioned
+26 verbose git-describe undefined => "footer-versioned@0.0.7-3-g69de638"
+27 silly git-describe parsed => {"lastTagName":"footer-versioned@0.0.7","lastVersion":"0.0.7","refCount":"3","sha":"69de638","isDirty":false}
+28 silly independent for footer-versioned at /Users/apple/Desktop/getting-started-example/packages/footer
 29 verbose getChangelogConfig using preset "conventional-changelog-angular"
 30 silly npa Result {
-30 silly npa   type: 'tag',
+30 silly npa   type: 'range',
 30 silly npa   registry: true,
 30 silly npa   where: undefined,
 30 silly npa   raw: 'conventional-changelog-angular',
 30 silly npa   name: 'conventional-changelog-angular',
 30 silly npa   escapedName: 'conventional-changelog-angular',
 30 silly npa   scope: undefined,
-30 silly npa   rawSpec: '',
+30 silly npa   rawSpec: '*',
 30 silly npa   saveSpec: null,
-30 silly npa   fetchSpec: 'latest',
+30 silly npa   fetchSpec: '*',
 30 silly npa   gitRange: undefined,
 30 silly npa   gitCommittish: undefined,
+30 silly npa   gitSubdir: undefined,
 30 silly npa   hosted: undefined
 30 silly npa }
 31 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 32 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
 33 verbose independent increment 0.0.8 by patch
-34 silly independent for remixapp-versioned at /Users/apple/Desktop/getting-started-example/packages/remixapp
-35 verbose independent increment 0.0.7 by patch
-36 info auto-confirmed
-37 info execute Skipping releases
-38 silly lifecycle No script for "preversion" in "root", continuing
+34 silly independent for header-versioned at /Users/apple/Desktop/getting-started-example/packages/header
+35 verbose independent increment 0.0.11 by patch
+36 info execute Skipping releases
+37 silly lifecycle No script for "preversion" in "root", continuing
+38 silly lifecycle No script for "preversion" in "footer-versioned", continuing
 39 silly lifecycle No script for "preversion" in "header-versioned", continuing
-40 silly lifecycle No script for "preversion" in "remixapp-versioned", continuing
-41 silly lifecycle No script for "version" in "remixapp-versioned", continuing
-42 silly independent for remixapp-versioned at /Users/apple/Desktop/getting-started-example/packages/remixapp
-43 silly lifecycle No script for "version" in "header-versioned", continuing
-44 silly independent for header-versioned at /Users/apple/Desktop/getting-started-example/packages/header
-45 silly independent writing new entry: "## 0.0.8 (2024-08-24)\n\n\n\n## 0.0.6 (2024-08-24)\n\n\n\n## 0.0.4 (2024-08-24)\n\n\n\n## 0.0.3 (2024-08-24)\n\n\n\n## 0.0.2 (2024-08-24)\n\n\n\n## 0.0.1 (2024-08-24)\n\n\n### Bug Fixes\n\n* add version to remixapp packagejson to satisfy yarn workspaces ([daf785f](https://github.com/rahul-toddleapp/getting-started-example/commit/daf785ff39c01da41f636987814d066f3b6b1234))\n\n\n\n"
-46 verbose independent wrote /Users/apple/Desktop/getting-started-example/packages/remixapp/CHANGELOG.md
-47 silly independent writing new entry: "## 0.0.9 (2024-08-24)\n\n\n\n## 0.0.6 (2024-08-24)\n\n\n\n## 0.0.4 (2024-08-24)\n\n\n\n## 0.0.3 (2024-08-24)\n\n\n\n## 0.0.2 (2024-08-24)\n\n\n\n## 0.0.1 (2024-08-24)\n\n\n### Bug Fixes\n\n* emit types from react component packages ([124611e](https://github.com/rahul-toddleapp/getting-started-example/commit/124611e46cf4d07f337d3e9e522378a7f50116c9))\n\n\n\n"
-48 verbose independent wrote /Users/apple/Desktop/getting-started-example/packages/header/CHANGELOG.md
+40 silly lifecycle No script for "version" in "header-versioned", continuing
+41 silly independent for header-versioned at /Users/apple/Desktop/getting-started-example/packages/header
+42 silly lifecycle No script for "version" in "footer-versioned", continuing
+43 silly independent for footer-versioned at /Users/apple/Desktop/getting-started-example/packages/footer
+44 silly independent writing new entry: "## [0.0.9](https://github.com/rahul-toddleapp/getting-started-example/compare/footer-versioned@0.0.7...footer-versioned@0.0.9) (2024-09-03)\n\n**Note:** Version bump only for package footer-versioned\n\n\n\n"
+45 silly independent writing new entry: "## [0.0.12](https://github.com/rahul-toddleapp/getting-started-example/compare/header-versioned@0.0.10...header-versioned@0.0.12) (2024-09-03)\n\n**Note:** Version bump only for package header-versioned\n\n\n\n"
+46 verbose independent wrote /Users/apple/Desktop/getting-started-example/packages/footer/CHANGELOG.md
+47 verbose independent wrote /Users/apple/Desktop/getting-started-example/packages/header/CHANGELOG.md
+48 silly lifecycle No script for "version" in "root", continuing
 49 verbose version Updating root package-lock.json
-50 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
-50 error npm error code ETARGET
-50 error npm error notarget No matching version found for header-versioned@^0.0.6.
-50 error npm error notarget In most cases you or one of your dependencies are requesting
-50 error npm error notarget a package version that doesn't exist.
-50 error
-50 error npm error A complete log of this run can be found in: /Users/apple/.npm/_logs/2024-08-24T11_49_57_588Z-debug-0.log
-50 error     at makeError (/Users/apple/Desktop/getting-started-example/node_modules/execa/lib/error.js:59:11)
-50 error     at handlePromise (/Users/apple/Desktop/getting-started-example/node_modules/execa/index.js:114:26)
-50 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-50 error     at async VersionCommand.updatePackageVersions (/Users/apple/Desktop/getting-started-example/node_modules/lerna/dist/index.js:8300:13)
-50 error     at async Promise.all (index 0)
+50 silly gitAdd [
+50 silly gitAdd   'packages/header/package.json',
+50 silly gitAdd   'packages/header/package-lock.json',
+50 silly gitAdd   'packages/footer/package.json',
+50 silly gitAdd   'packages/footer/package-lock.json',
+50 silly gitAdd   'packages/footer/CHANGELOG.md',
+50 silly gitAdd   'packages/header/CHANGELOG.md',
+50 silly gitAdd   'package-lock.json'
+50 silly gitAdd ]
+51 silly gitCommit chore(release): publish
+51 silly gitCommit
+51 silly gitCommit  - footer-versioned@0.0.9
+51 silly gitCommit  - header-versioned@0.0.12
+52 verbose git [
+52 verbose git   'commit',
+52 verbose git   '-F',
+52 verbose git   '/private/var/folders/s_/57djqm0j015d5mxqm2spxy2m0000gn/T/b024ef6e-3060-46c0-a7c5-9c341a548bdb/lerna-commit.txt'
+52 verbose git ]
+53 silly gitTag footer-versioned@0.0.9 git tag %s -m %s
+54 verbose git [ 'tag', 'footer-versioned@0.0.9', '-m', 'footer-versioned@0.0.9' ]
+55 silly gitTag header-versioned@0.0.12 git tag %s -m %s
+56 verbose git [ 'tag', 'header-versioned@0.0.12', '-m', 'header-versioned@0.0.12' ]
+57 error Error: Command failed with exit code 128: git tag footer-versioned@0.0.9 -m footer-versioned@0.0.9
+57 error fatal: tag 'footer-versioned@0.0.9' already exists
+57 error     at makeError (/Users/apple/Desktop/getting-started-example/node_modules/execa/lib/error.js:59:11)
+57 error     at handlePromise (/Users/apple/Desktop/getting-started-example/node_modules/execa/index.js:114:26)
+57 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+57 error     at async Promise.all (index 0)
+57 error     at async VersionCommand.gitCommitAndTagVersionForUpdates (/Users/apple/Desktop/getting-started-example/node_modules/lerna/dist/index.js:9948:11)
+57 error     at async VersionCommand.commitAndTagUpdates (/Users/apple/Desktop/getting-started-example/node_modules/lerna/dist/index.js:9924:18)
+57 error     at async Promise.all (index 0)
