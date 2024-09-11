@@ -5,7 +5,7 @@
     "publish": {
       "conventionalCommits": true,
       "message": "chore(release): publish",
-      "allowBranch": ["lerna-publish", "release-v*"]
+      "allowBranch": ["lerna-publish", "release-v*", "develop"]
     },
     "ignoreChanges": ["*.md"]
   }
