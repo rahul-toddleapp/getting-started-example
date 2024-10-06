@@ -1,13 +1,13 @@
 {
   "name": "header-versioned",
-  "version": "1.0.18",
+  "version": "1.1.10",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "rimraf dist && rollup --config",
     "test": "jest",
-    "publish": "npm publish"
+    "publish": "npm run build && npm publish"
   },
   "dependencies": {
     "@testing-library/react": "13.3.0",
