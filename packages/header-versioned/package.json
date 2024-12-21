@@ -25,5 +25,21 @@
   "devDependencies": {
     "rimraf": "^3.0.2"
   },
-  "gitHead": "34c55b8cabac63d737e4e2caaa1c5f23755f473a"
+  "description": "> TODO: description",
+  "author": "rahul-toddleapp <rahulsingh@toddleapp.com>",
+  "homepage": "https://github.com/rahul-toddleapp/getting-started-example#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul-toddleapp/getting-started-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahul-toddleapp/getting-started-example/issues"
+  }
 }
