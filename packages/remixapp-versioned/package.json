@@ -14,8 +14,8 @@
     "@remix-run/node": "^1.5.1",
     "@remix-run/react": "^1.5.1",
     "@remix-run/serve": "^1.5.1",
-    "footer-versioned": "0.0.4",
-    "header-versioned": "0.0.5",
+    "header-versioned": "2.0.21",
+    "footer-versioned": "2.0.21",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },
@@ -43,5 +43,22 @@
       }
     }
   },
-  "gitHead": "34c55b8cabac63d737e4e2caaa1c5f23755f473a"
+  "description": "> TODO: description",
+  "author": "rahul-toddleapp <rahulsingh@toddleapp.com>",
+  "homepage": "https://github.com/rahul-toddleapp/getting-started-example#readme",
+  "main": "lib/remixapp-versioned.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul-toddleapp/getting-started-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rahul-toddleapp/getting-started-example/issues"
+  }
 }
