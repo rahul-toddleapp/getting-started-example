@@ -13,6 +13,6 @@
     "publish:packages": "lerna publish from-git --yes"
   },
   "devDependencies": {
-    "lerna": "^8.1.8"
+    "lerna": "4.0.0"
   }
 }
