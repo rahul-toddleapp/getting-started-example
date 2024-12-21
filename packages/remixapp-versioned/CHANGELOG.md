@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.21](https://github.com/rahul-toddleapp/getting-started-example/compare/v1.0.13...v2.0.21) (2024-12-21)
+
+**Note:** Version bump only for package remixapp-versioned
+
+
+
+
+
 ## [2.0.20](https://github.com/rahul-toddleapp/getting-started-example/compare/remixapp-versioned@1.0.19...remixapp-versioned@2.0.20) (2024-12-21)
 
 **Note:** Version bump only for package remixapp-versioned
