@@ -1,12 +1,20 @@
 {
-  "packages": ["packages/*"],
-  "version": "0.0.2",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "1.0.13",
   "command": {
     "publish": {
       "conventionalCommits": true,
       "message": "chore(release): publish",
-      "allowBranch": ["lerna-publish", "release-v*", "develop"]
+      "allowBranch": [
+        "lerna-publish",
+        "release-v*",
+        "develop"
+      ]
     },
-    "ignoreChanges": ["*.md"]
+    "ignoreChanges": [
+      "*.md"
+    ]
   }
 }

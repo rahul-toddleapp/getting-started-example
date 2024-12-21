@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.13 (2024-12-21)
+
+
+### Bug Fixes
+
+* emit types from react component packages ([124611e](https://github.com/rahul-toddleapp/getting-started-example/commit/124611e46cf4d07f337d3e9e522378a7f50116c9))
+
+
+
+
+
 ## 1.0.12 (2024-09-11)
 
 
